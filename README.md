@@ -1,21 +1,39 @@
-<<<<<<< HEAD
-# restapi
+# Flutter Rest Api 
+This Flutter project demonstrates how to consume a REST API using the Dio package and display the retrieved data as a grid view. The app fetches product data from https://fakestoreapi.com/products and presents it in a visually appealing grid layout. It's a practical example of how to integrate network requests and dynamic UI rendering in a Flutter application.
+## Table of Contents
 
-A new Flutter project.
+- Demo
+- Features
+- Getting Started
+- License
 
+## Demo
+![ScreenShot](https://raw.github.com/denniskimtai/flutter-rest-api/main/screenshot.jpg)
+## Features
+
+- Consumes a REST API to fetch product data.
+- Displays fetched data in a grid view.
+- Utilizes the Dio package for efficient network requests.
+- Uses the GridView.builder to create an efficient grid layout.
+- Provides a clean and modular code structure.
 ## Getting Started
+To run this project locally, follow these steps:
+1. Clone the repository
+```bash
+git clone https://github.com/denniskimtai/flutter-rest-api.git
+```
+2. Navigate to the project directory.
+```bash
+cd flutter-rest-api
+```
+3. Install dependencies
+```bash
+flutter pub get
+```
+4. Run the app
+```bash
+flutter run
+```
+## License
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# flutter-rest-api
-Flutter app showcasing Dio-powered REST API consumption in a grid view. Fetches and displays product data elegantly. Dynamic grid layout adapts to content. Clean, modular code structure.
->>>>>>> 2985888ffb64c3f8f7991553b955b7f6d1917ded
+Released under [MIT License](https://raw.github.com/denniskimtai/flutter-rest-api/main/LICENSE)
